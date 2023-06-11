@@ -1,31 +1,7 @@
-private class Student {
-//student fields + private access modifier
-private string name;
-private string school;
-private int age;
-//getters and setters for age since it's not a fixed value. 
-public int Age {
- get { 
-    return age;
+using System;
+
+class HelloWorld {
+    static void Main() {
+        Console.WriteLine("Hello, World!");
     }
-   set {
-   age = value;
-   }
-
 }
-//constructor 
-public Student (string name, string school, int age) {
-    Age = age;
-    name = name;
-    school = school;
-    Console.WriteLine($"Name: {name}, School: {school} Age: {Age}");
-}
-//creating student example student object 
-Studnet student = new Student ("Alessandro", 16)
-}
-
-
-//Comments
-
-This code exemplifies the basic concept of encapsulation through private modifiers by outputing
-a console message of three fields (age, school and name)
